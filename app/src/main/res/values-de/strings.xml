@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Proxy Setter(PRO)</string>
+    <string name="this_language">DE</string>
+
+    <!--ANNON-->
+    <string name="anon_1">Nein</string>
+    <string name="anon_2">Niedrig</string>
+    <string name="anon_3">Durchschnittlich</string>
+    <string name="anon_4">Hoch</string>
+
+
+    <!--Proxy info-->
+    <string name="Is_Copyies">kopiert</string>
+    <string name="Proxy_Source">Proxy-Quelle</string>
+    <string name="Proxy_Type">Typ</string>
+    <string name="Server_Delay">Serververzögerung</string>
+    <string name="Dont_have_data">keine Daten</string>
+    <string name="Country">Staat</string>
+    <string name="Anonimity">Anonymität</string>
+    <string name="Proxy_dont_set">Proxy nicht installiert</string>
+    <string name = "ProxyIsSet"> Der Proxy ist installiert </string>
+    <string name = "NoNetwork"> Keine Netzwerkverbindung </string>
+
+    <!-- Dialog -->
+    <string name = "This_Connection_use_proxy"> Die aktuelle Verbindung verwendet bereits einen Proxy. Löschen Sie es, um ein neues zu installieren </string>
+
+    <!-- Toast -->
+    <string name = "Connect_to_network"> Verbinden Sie sich mit dem Netzwerk </string>
+    <string name = "Connect_dont_use_proxy"> Die Verbindung verwendet keinen Proxy </string>
+    <string name = "You_dont_connected_to_nework"> Sie sind nicht mit dem Netzwerk verbunden </string>
+    <string name = "Server_not_found"> Der Proxy konnte nicht gefunden werden. </string>
+
+    <!-- ChooseLanguage -->
+    <string name = "ChooseLanguage"> Wählen Sie die Sprache. </string>
+    <!--ProxyConfigActivity-->
+    <string name = "You_dont_choose_proxy"> Sie haben keine Proxies </string> ausgewählt
+    <string name = "List_you_proxy_clean"> Die Liste Ihrer Proxies ist leer </string>
+    <string name = "Url_empty"> URL darf nicht leer sein </string>
+    <string name = "Setting_Save"> Einstellungen gespeichert </string>
+    <string name = "Input_error"> Eingabefehler </string>
+    <!--layout-->
+    <string name = "Proxy_Settings"> Proxy-Einstellungen </string>
+    <string name = "None_filter"> Ohne Filter </string>
+    <string name = "Get_low_delay_proxy"> Gibt den Proxy mit der niedrigsten Latenz </string>
+    <string name = "Find_Proxy_on_site"> Suchen Sie einen Proxy für die Site </string>
+    <string name = "url_site"> Websiteadresse </string>
+    <string name = "On_ports_sort"> Sortiert nach Ports </string>
+    <string name = "List_ports"> Liste der Ports: </string>
+    <string name = "ports_hint"> Ports getrennt durch Kommas </string>
+    <string name = "On_Country_filter"> Filter nach Land aktivieren </string>
+    <string name = "On_type_filter"> Filter nach Typ </string> aktivieren
+    <string name = "On_filter_anon"> Filter nach Anonymität aktivieren </string>
+    <string name="choose">Choose</string>
+
+    <string name = "use_my_proxy"> Verwenden Sie meinen Proxy </string>
+    <string name = "choose_you_proxy"> Wählen Sie Ihren Proxy. </string>
+    <string name = "change_proxy"> Ändern des Proxy </string>
+    <string name = "Name_proxy"> Proxy-Name: </string>
+    <string name="Choose_connetction">Eine Verbindung auswählen</string>
+
+    <string name="Connect">Verbinden</string>
+    <string name="new_proxy">Neuer Proxy</string>
+
+    <!--First Connection Activity-->
+    <string name="Setting_First_Connection">Configure the first connection</string>
+
+    <!--Choose Connection Activity-->
+    <string name="Name_string">Name</string>
+    <string name="ProxyList">Proxy list</string>
+    <string name="choose_country">Wählen Sie die Länder aus, die Sie benötigen.</string>
+
+    <string name = "first_connection_info"> Machen Sie jetzt eine kleine Optimierung der ersten Verbindung. Diese Konfiguration muss nur einmal für ein bestimmtes Netzwerk durchgeführt werden </string>
+    <string name = "first_step"> 1. Sie müssen zu den Einstellungen gehen und die aktuelle Verbindung löschen, wie im Screenshot gezeigt. Klicken Sie dazu auf den Button (Gehe zu WLAN-Einstellungen) </string>
+    <string name = "GoToWifi"> Gehen Sie zu WLAN-Einstellungen </string>
+    <string name = "i_all_do"> 2. Jetzt klicke auf den Button (ich habe alles gemacht) und verbinde dich mit dem gewünschten WLAN-Punkt </string>
+    <string name = "i_did_everything"> Ich habe alles gemacht </string>
+    <string name = "choose_anon_type"> Wählen Sie die Arten der Anonymität.</string>
+    <string name = "choose_proxy_type"> Wählen Sie die Typen des Proxys. </string>
+    <string name = "on_gps"> Aktivieren Sie die Standortberichte und aktualisieren Sie die Liste der Netzwerke. </string>
+    <string name = "now_connection_use_proxy"> Die aktuelle Verbindung verwendet bereits einen Proxy. Löschen Sie es, um ein neues zu installieren. </string>
+
+    <string name = "choose_deleted_network"> Wählen Sie das Netzwerk aus, das Sie gelöscht haben </string>
+    <string name = "dialog_connect"> Warten Sie, bis das Gerät eine Verbindung mit dem Netzwerk hergestellt hat. Wenn das Gerät keine Verbindung herstellt, haben Sie möglicherweise ein falsches Passwort eingegeben und gehen dann zurück und machen dasselbe. </string>
+    <string name = "first_connection_dialog"> Fast alles! Proxy erfolgreich gefunden, jetzt müssen Sie eine kleine Konfiguration der ersten Verbindung durchführen. </string>
+
+    <string name = "proxy_not_found"> ​​Der Proxy konnte nicht gefunden werden. Versuchen Sie, die Proxy-Sucheinstellungen zu ändern. </string>
+
+    <string name = "dont_forget_save"> Vergessen Sie nicht, die Einstellungen </string> zu speichern
+
+    <string name = "ProxyIsFind"> Proxy wurde erfolgreich gefunden </string>
+    <string name = "This_Connection_use_proxy_2"> Die aktuelle Verbindung verwendet bereits einen Proxy. Löschen Sie es, um ein neues zu finden </string>
+    <string name = "This_Connection_use_proxy_3"> Die aktuelle Verbindung verwendet einen Proxy. Löschen Sie es, um die Liste der Proxies </string> anzuzeigen
+
+
+    <string name = "hint_connect"> Lassen Sie dieses Feld leer, wenn das Netzwerk kein Passwort hat </string>
+</resources>

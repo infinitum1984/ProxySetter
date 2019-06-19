@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/main_background"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_w"
+        android:textSize="@dimen/proxy_info_text_size"
+        android:text="@string/choose_anon_type"
+        />
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_w"
+        android:textSize="@dimen/proxy_info_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/none_anon"
+        android:text="@string/anon_1"
+        />
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_w"
+        android:textSize="@dimen/proxy_info_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/low_anon"
+        android:text="@string/anon_2"
+        />
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_w"
+        android:textSize="@dimen/proxy_info_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/middle_anon"
+        android:text="@string/anon_3"
+        />
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_w"
+        android:textSize="@dimen/proxy_info_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/high_anon"
+        android:text="@string/anon_4"
+        />
+
+</LinearLayout>

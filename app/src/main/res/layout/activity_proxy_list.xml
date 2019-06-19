@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.ProxyListActivity"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+
+        >
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="BackToMainActivity"
+            android:src="@mipmap/ic_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_back_background"
+            />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/ProxyList"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_list_proxy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/proxy_list_listview"
+        />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+</LinearLayout>

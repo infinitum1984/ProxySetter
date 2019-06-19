@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_my_proxy_background"
+    android:clickable="true"
+    tools:context=".Activitys.ProxyConfigActivity"
+
+    >
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/l1"
+
+        >
+        <TextView
+            android:textSize="18sp"
+
+            android:id="@+id/name_my_proxy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color_w"
+            />
+        <TextView
+            android:layout_marginTop="3dp"
+            android:id="@+id/ip_my_proxy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+
+            android:textColor="@color/text_color_w"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+
+            >
+            <ImageButton
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/delet_my_proxy"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="Удалить"
+                android:textSize="12sp"
+                android:src="@mipmap/ic_delete_sweep"
+                android:background="@drawable/button_background_delete_proxy"
+                />
+
+        <ImageButton
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_arrow_background"
+            android:textSize="12sp"
+            android:id="@+id/change_my_proxy"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/ic_edit"
+            />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <CheckBox
+        android:layout_marginLeft="5dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/my_proxy_check"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+
+        android:layout_alignRight="@id/l1"
+        android:gravity="center"
+         />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        >
+
+    </View>
+
+
+</RelativeLayout>

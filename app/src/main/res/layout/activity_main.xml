@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.MainActivity"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimary">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Proxy Setter"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/choose_language_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_sq"
+                    android:onClick="ShowChooseLanguageDialog"
+                    android:textColor="@android:color/white" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/lin1"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proxy info."
+                android:textColor="@color/text_color_w"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextSwitcher
+                android:id="@+id/info_p_status"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/proxy_info_text_margin_left"
+                android:textColor="@color/text_color_w"
+                android:textSize="@dimen/proxy_info_text_size"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextSwitcher
+                    android:id="@+id/info_ip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/proxy_info_text_margin_left"
+                    android:textColor="@color/text_color_w"
+                    android:textSize="@dimen/proxy_info_text_size"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/copy_ip_main"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_arrow_background"
+                    android:src="@mipmap/ic_copy_content"
+                    android:textColor="@color/text_color_w"
+                    android:visibility="gone"
+
+                    />
+            </LinearLayout>
+
+            <TextSwitcher
+                android:id="@+id/info_type"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/proxy_info_text_margin_left"
+                android:textColor="@color/text_color_w"
+                android:textSize="@dimen/proxy_info_text_size"
+
+                />
+
+            <TextSwitcher
+                android:id="@+id/info_country"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/proxy_info_text_margin_left"
+                android:textColor="@color/text_color_w"
+                android:textSize="@dimen/proxy_info_text_size"
+
+                />
+
+            <TextSwitcher
+                android:id="@+id/info_anon"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/proxy_info_text_margin_left"
+                android:textColor="@color/text_color_w"
+                android:textSize="@dimen/proxy_info_text_size"
+
+                />
+
+            <TextSwitcher
+                android:id="@+id/info_delay"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/proxy_info_text_margin_left"
+                android:textColor="@color/text_color_w"
+                android:textSize="@dimen/proxy_info_text_size"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <TextSwitcher
+                    android:id="@+id/proxy_source_m"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/text_color_w"
+                    android:textSize="@dimen/proxy_info_text_size"
+
+                    />
+
+                <TextSwitcher
+                    android:id="@+id/proxy_source_"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/proxy_info_text_margin_left"
+                    android:textColor="@color/text_color_w"
+                    android:textSize="@dimen/proxy_info_text_size"
+
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/proxy_config"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background_delete_proxy"
+                    android:onClick="OpenProxyConfig"
+                    android:src="@mipmap/ic_setting"
+                    android:textColor="@color/text_color_w"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/unset_proxy_button"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background_delete_proxy"
+                    android:onClick="UnsetProxy"
+                    android:src="@mipmap/ic_delete"
+                    android:textColor="@color/text_color_w" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/lin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:adjustViewBounds="true"
+                android:divider="@drawable/separator"
+                android:dividerPadding="3dp"
+                android:orientation="horizontal"
+
+                >
+
+
+                <ImageButton
+                    android:id="@+id/find_proxy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background_proxy_config"
+                    android:onClick="FindProxy"
+                    android:src="@mipmap/ic_find"
+                    android:textColor="@color/text_color_w"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/set_proxy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background_set_proxy"
+                    android:onClick="SetProxy"
+                    android:padding="10dp"
+                    android:src="@mipmap/ic_pwr"
+                    android:textColor="@color/text_color_w"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/show_list_proxy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background_proxy_list"
+                    android:onClick="ShowProxyList"
+                    android:padding="10dp"
+                    android:src="@mipmap/ic_list"
+                    android:textColor="@color/text_color_w"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

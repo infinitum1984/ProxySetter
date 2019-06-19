@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="30dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="30dp"
+    android:orientation="vertical"
+    android:background="@color/main_background"
+    tools:context=".Activitys.ProxyConfigActivity"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/change_proxy"
+        android:textColor="@color/text_color_w"
+
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="@string/Name_proxy"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/text_color_w" />
+
+        <EditText
+            android:id="@+id/name_c_proxy"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_row="0"
+            android:textColor="@color/text_color_w" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="Host"
+            android:textColor="@color/text_color_w"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            />
+
+        <EditText
+            android:id="@+id/host_c_proxy"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_row="1"
+            android:textColor="@color/text_color_w" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="Port"
+            android:textColor="@color/text_color_w"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            />
+
+        <EditText
+            android:id="@+id/port_c_proxy"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_row="2"
+            android:inputType="numberSigned|numberDecimal"
+
+            android:textColor="@color/text_color_w" />
+    </GridLayout>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/save_my_proxy_changes"
+        android:src="@mipmap/ic_save"
+        android:background="@drawable/button_save_background"
+        />
+</LinearLayout>

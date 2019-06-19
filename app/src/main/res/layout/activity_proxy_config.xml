@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.ProxyConfigActivity"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+
+        >
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="BackToMainActivity"
+            android:src="@mipmap/ic_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_back_background"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Proxy_Settings"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:onClick="SaveProxyConfig"
+            android:src="@mipmap/ic_save"
+            android:background="@drawable/button_save_background"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+
+    </RelativeLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.ProxyConfigActivity"
+    android:orientation="vertical"
+    >
+
+
+    <Switch
+        android:id="@+id/use_best_proxy_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="@string/None_filter"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        ></View>
+
+    <Switch
+        android:id="@+id/use_low_delay_proxy_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="@string/Get_low_delay_proxy"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        ></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Switch
+            android:id="@+id/special_url_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="@string/Find_Proxy_on_site"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="URL:"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/url_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/url_site"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"></View>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Switch
+            android:id="@+id/port_filtter_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="@string/On_ports_sort"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/List_ports"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                />
+
+            <EditText
+                android:id="@+id/ports_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ports_hint"
+                android:inputType="textPhonetic|number|numberSigned|numberDecimal"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/country_filtter_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/On_Country_filter"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageButton
+            android:id="@+id/choose_countrys"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="ChooseCountryDialog"
+            android:src="@mipmap/ic_arrow"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_arrow_background"
+            ></ImageButton>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/type_filtter_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/On_type_filter"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <ImageButton
+            android:text="@string/choose"
+            android:id="@+id/choose_type"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="ChooseTypeDialog"
+            android:src="@mipmap/ic_arrow"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_arrow_background"
+            ></ImageButton>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/anon_filtter_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/On_filter_anon"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <ImageButton
+            android:text="@string/choose"
+            android:id="@+id/choose_anon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="ChooseAnonTypeDialog"
+            android:src="@mipmap/ic_arrow"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_arrow_background"
+            ></ImageButton>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/use_my_proxy_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/use_my_proxy"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageButton
+            android:text="@string/choose"
+            android:id="@+id/choose_my_proxy"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="ChooseMyProxyDialog"
+            android:src="@mipmap/ic_arrow"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_arrow_background"
+            ></ImageButton>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"></View>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

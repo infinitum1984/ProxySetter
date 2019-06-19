@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Proxy Setter(PRO)</string>
+    <string name="this_language">RU</string>
+
+    <!--ANNON-->
+    <string name="anon_1">Нет</string>
+    <string name="anon_2">Низкая</string>
+    <string name="anon_3">Средняя</string>
+    <string name="anon_4">Высокая</string>
+
+
+    <!--Proxy info-->
+    <string name="Is_Copyies">скопирован</string>
+    <string name="Proxy_Source">Источник прокси</string>
+    <string name="Proxy_Type">Тип</string>
+    <string name="Server_Delay">Задержка сервера</string>
+    <string name="Dont_have_data">нет данных</string>
+    <string name="Country">Страна</string>
+    <string name="Anonimity">Анонимность</string>
+    <string name="Proxy_dont_set">Прокси не установлен</string>
+    <string name="ProxyIsSet">Прокси установлен</string>
+    <string name="NoNetwork">Нет подключения к сети</string>
+
+    <!--Dialog-->
+    <string name="This_Connection_use_proxy">Текущее соединение уже использует прокси. Удалите его чтобы установить новый</string>
+
+    <!--Toast-->
+    <string name="Connect_to_network">Подключитесь к сети</string>
+    <string name="Connect_dont_use_proxy">Соединение не использует прокси</string>
+    <string name="You_dont_connected_to_nework">Вы не подключены к сети</string>
+    <string name="Server_not_found">Не удалось найти прокси.</string>
+
+    <!--ChooseLanguage-->
+    <string name="ChooseLanguage">Выберете язык.</string>
+
+    <!--ProxyConfigActivity-->
+    <string name="Name_string">Имя</string>
+    <string name="You_dont_choose_proxy">Вы не выбрали ни один прокси</string>
+    <string name="List_you_proxy_clean">Список ваших прокси пуст</string>
+    <string name="Url_empty">URL не может быть пустым</string>
+    <string name="Setting_Save">Настройки сохранены</string>
+    <string name="Input_error">Ошибка ввода</string>
+    <!--layout-->
+    <string name="Proxy_Settings">Настройки прокси</string>
+    <string name="None_filter">Без фильтров</string>
+    <string name="Get_low_delay_proxy">Вернуть прокси с самой меньшей задержкой</string>
+    <string name="Find_Proxy_on_site">Найти прокси для сайта</string>
+    <string name="url_site">адрес сайта</string>
+    <string name="On_ports_sort">Включить сортировку по портам</string>
+    <string name="List_ports">Список портов:</string>
+    <string name="ports_hint">порты через запятую</string>
+    <string name="On_Country_filter">Включить фильтр по странам</string>
+    <string name="On_type_filter">Включить фильтр по типам</string>
+    <string name="On_filter_anon">Включить фильтр по степеням анонимности</string>
+    <string name="choose">Выбрать</string>
+    <string name="use_my_proxy">Использовать мой прокси</string>
+    <string name="choose_you_proxy">Выберите свой прокси.</string>
+    <string name="change_proxy">Изменение прокси</string>
+    <string name="Name_proxy">Название прокси:</string>
+
+
+    <!--First Connection Activity-->
+    <string name="Setting_First_Connection">Настройка первого соединения</string>
+
+    <!--Choose Connection Activity-->
+    <string name="ProxyList">Proxy list</string>
+
+    <string name="Choose_connetction">Выбор соединения</string>
+    <string name="Connect">Подключиться</string>
+    <string name="first_connection_info">Теперь выполните небольшую настройку первого соединения. Данную настройку нужно выполнить только раз для конкретной сети</string>
+    <string name="first_step">1. Нужно перейти в настройки и удалить текущее соединение, как показано на скриншоте. Для этого нажминете на кнопку (Перейти в настроки Wifi)</string>
+    <string name="GoToWifi">Перейти в настройки Wifi</string>
+    <string name="i_all_do">2. Теперь нажмите на кнопку (Я все сделал) и подключитесь к нужной точки wifi</string>
+    <string name="i_did_everything">Я все сделал</string>
+    <string name="new_proxy">Новый прокси</string>
+
+    <string name="choose_anon_type">Выберите типы анонимности..</string>
+    <string name="choose_country">Выберите нужные вам страны.</string>
+    <string name="choose_proxy_type">Выберите типы прокси.</string>
+    <string name="on_gps">Включите передачу геоданных и обновите список сетей.</string>
+    <string name="now_connection_use_proxy">Текущее соединение уже использует прокси. Удалите его чтобы установить новый.</string>
+
+    <string name="choose_deleted_network">Выберете сеть которую вы удалили</string>
+    <string name="dialog_connect">Подождите пока устройство подлючится к сети. Если устройство не подключается, то возможно вы ввели неправильный пароль, тогда вернитесь назад и проделайте те же действия заново.</string>
+    <string name="first_connection_dialog">Почти все! Прокси успешно найден теперь нужно выполнить небольшую настройку первого соединения.</string>
+
+    <string name="proxy_not_found">Не удалось найти прокси. Попробуйте изменить настройки поиска прокси.</string>
+
+    <string name="dont_forget_save">Не забывайте сохранять настройки</string>
+
+    <string name="ProxyIsFind">Прокси успешно найден</string>
+    <string name="This_Connection_use_proxy_2">Текущее соединение уже использует прокси. Удалите его чтобы найти новый</string>
+    <string name="This_Connection_use_proxy_3">Текущее соединение использует прокси. Удалите его чтобы просмотреть список прокси</string>
+
+
+    <string name="hint_connect">Оставьте это поле пустым, если сеть без пароля</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5fc6b5</color>
+    <color name="colorPrimaryDark">@color/accent_material_light</color>
+    <color name="colorAccent">#236391</color>
+
+    <color name="main_background">#dcdbdb</color>
+
+    <color name="button_background">@color/accent_material_light</color>
+    <color name="button_background_proxy_config">#895122</color>
+    <color name="button_background_set_proxy">#5fc6b5</color>
+    <color name="button_background_proxy_list">#f39f49</color>
+    <color name="button_background_proxy_list_off">#ecbe90</color>
+
+    <color name="button_background_delete_proxy">#236391</color>
+
+    <color name="text_color_w">#3b4644</color>
+</resources>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Proxy Setter(PRO)</string>
+    <string name="this_language">FR</string>
+
+    <!--ANNON-->
+    <string name="anon_1">Non</string>
+    <string name="anon_2">Faible</string>
+    <string name="anon_3">Moyen</string>
+    <string name="anon_4">Élevé</string>
+
+
+    <!--Proxy info-->
+    <string name="Is_Copyies">copié</string>
+    <string name="Proxy_Source">Source Proxy</string>
+    <string name="Proxy_Type">Type</string>
+    <string name="Server_Delay">Retard du serveur</string>
+    <string name="Dont_have_data">pas de données</string>
+    <string name="Country">Pays</string>
+    <string name="Anonimity">Anonymat</string>
+    <string name="Proxy_dont_set">Proxy non installé</string>
+    <string name="ProxyIsSet">Proxy installé</string>
+    <string name="NoNetwork">Aucune connexion réseau</string>
+
+    <!--Dialog-->
+    <string name="This_Connection_use_proxy">La connexion en cours utilise déjà un proxy. Retirez-le pour en installer un nouveau</string>
+
+    <!--Toast-->
+    <string name="Connect_to_network">Se connecter au réseau</string>
+    <string name="Connect_dont_use_proxy">La connexion n\'utilise pas de proxy</string>
+    <string name="You_dont_connected_to_nework">Vous n\'êtes pas connecté au réseau</string>
+    <string name="Server_not_found">Impossible de trouver le proxy.</string>
+
+    <!--ChooseLanguage-->
+    <string name="ChooseLanguage">Choisissez une langueе.</string>
+
+    <!--ProxyConfigActivity-->
+    <string name="Name_string">Nom</string>
+    <string name="You_dont_choose_proxy">Vous n\'avez sélectionné aucun proxy</string>
+    <string name="List_you_proxy_clean">Votre liste de proxy est vide</string>
+    <string name="Url_empty">L\'URL ne peut pas être vide</string>
+    <string name="Setting_Save">Paramètres enregistrés</string>
+    <string name="Input_error">Erreur de saisie</string>
+    <!--layout-->
+    <string name="Proxy_Settings">Paramètres de proxy</string>
+    <string name="None_filter">Pas de filtres</string>
+    <string name="Get_low_delay_proxy">Renvoie le proxy avec la latence la plus faible</string>
+    <string name="Find_Proxy_on_site">Trouver un proxy pour le site</string>
+    <string name="url_site">adresse du site</string>
+    <string name="On_ports_sort">Activer le tri par ports</string>
+    <string name="List_ports">Liste de ports:</string>
+    <string name="ports_hint">ports séparés par des virgules</string>
+    <string name="On_Country_filter">Activer le filtre par pays</string>
+    <string name="On_type_filter">Activer le filtre par type</string>
+    <string name="On_filter_anon">Activer le filtre par anonymat</string>
+    <string name="choose">Sélectionner</string>
+    <string name="use_my_proxy">Utiliser mon proxy</string>
+    <string name="choose_you_proxy">Choisissez votre proxy</string>
+    <string name="change_proxy">Changer de proxy</string>
+    <string name="Name_proxy">Nom du proxy:</string>
+
+
+    <!--First Connection Activity-->
+    <string name="Setting_First_Connection">Configurez la première connexion</string>
+
+    <!--Choose Connection Activity-->
+    <string name="Choose_connetction">Sélection d\'une connexion</string>
+    <string name="Connect">Se connecter</string>
+    <string name="first_connection_info">Faites maintenant un petit tweak de la première connexion. Ce paramètre doit être effectué une seule fois pour un réseau particulier</string>
+    <string name="first_step">1. Vous devez accéder aux paramètres et supprimer la connexion actuelle, comme indiqué sur la capture d\'écran. Pour ce faire, cliquez sur le bouton (Aller aux paramètres Wifi)</string>
+    <string name="GoToWifi">Aller aux paramètres Wifi</string>
+    <string name="i_all_do">2. Maintenant, cliquez sur le bouton (j\'ai tout fait) et connectez-vous au point wifi souhaité</string>
+    <string name="i_did_everything">J\'ai tout fait</string>
+    <string name="new_proxy">Nouveau proxy</string>
+    <string name="ProxyList">Proxy list</string>
+
+    <string name="choose_anon_type">Sélectionnez les types d\'anonymat.</string>
+    <string name="choose_country">Sélectionnez les pays dont vous avez besoin.</string>
+    <string name="choose_proxy_type">Sélectionnez les types de proxy.</string>
+    <string name="on_gps">Activez le rapport de localisation et mettez à jour la liste des réseaux.</string>
+    <string name="now_connection_use_proxy">La connexion en cours utilise déjà un proxy. Retirez-le pour en installer un nouveau.</string>
+
+    <string name="choose_deleted_network">Sélectionnez le réseau que vous avez supprimé</string>
+    <string name="dialog_connect">Attendez que le périphérique se connecte au réseau. Si le périphérique ne se connecte pas, vous avez peut-être saisi un mot de passe incorrect, puis vous avez effectué les mêmes actions.</string>
+    <string name="first_connection_dialog">Presque tout! Le proxy a été trouvé avec succès.Vous devez maintenant effectuer une petite configuration de la première connexion.</string>
+
+    <string name="proxy_not_found">Impossible de trouver le proxy. Essayez de changer les paramètres de recherche du proxy.</string>
+
+    <string name="dont_forget_save">N\'oubliez pas de sauvegarder les paramètres</string>
+
+    <string name="ProxyIsFind">Proxy trouvé avec succès</string>
+    <string name="This_Connection_use_proxy_2">La connexion en cours utilise déjà un proxy. Supprimez-le pour en trouver un nouveau</string>
+    <string name="This_Connection_use_proxy_3">La connexion en cours utilise un proxy. Supprimez-le pour afficher la liste des proxies</string>
+
+
+    <string name="hint_connect">Laissez ce champ vide si le réseau sans mot de passe</string>
+</resources>

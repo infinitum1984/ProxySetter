@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/item_my_proxy_background"
+    android:clickable="true"
+    tools:context=".Activitys.MainActivity"
+
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/ProxyIsFind"
+            android:textColor="@color/text_color_w"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/ip_itemm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:textColor="@color/text_color_w"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/country_itemm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:textColor="@color/text_color_w"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/delay_itemm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginTop="3dp"
+                    android:layout_row="2"
+                    android:textColor="@color/text_color_w"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/type_itemm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginTop="3dp"
+                    android:layout_row="3"
+                    android:textColor="@color/text_color_w"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/anon_itemm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_marginTop="3dp"
+                    android:layout_row="4"
+                    android:textColor="@color/text_color_w"
+                    android:textSize="16sp" />
+            </GridLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+
+                    android:id="@+id/copy_ipp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/button_back_background"
+                    android:src="@mipmap/ic_copy_content"
+                    android:textSize="10sp" />
+
+                <ImageButton
+                    android:id="@+id/set_thiss"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_arrow_background"
+                    android:src="@mipmap/ic_set_small"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/proxy_source"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/Proxy_Source"
+                android:textColor="@color/text_color_w"
+                android:textSize="@dimen/proxy_info_text_size"
+
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/source_dialog"
+                android:text="https://hidemyna.me/en/proxy-list/"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/button_background_delete_proxy"
+                android:textSize="@dimen/proxy_info_text_size"
+                android:layout_marginLeft="@dimen/proxy_info_text_margin_left"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

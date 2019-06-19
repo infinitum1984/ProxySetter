@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="@color/main_background"
+    tools:context=".Activitys.ProxyConfigActivity"
+
+    >
+
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_you_proxy"
+        android:textColor="@color/text_color_w"
+        android:textSize="@dimen/proxy_info_text_size"
+        android:textStyle="bold" />
+
+
+
+        >
+    <ListView
+        android:id="@+id/list_my_proxy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view1"
+        android:layout_marginTop="10dp"
+        ></ListView>
+    <ImageButton
+        android:id="@+id/button_add_proxy"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_add"
+        android:background="@drawable/button_arrow_background"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        />
+
+</RelativeLayout>
